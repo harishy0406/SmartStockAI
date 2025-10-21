@@ -11,6 +11,6 @@ git add .
 
 git push
 
-git commit -m "Added multi-warehouse datasets"
+git commit -m "message"
 
 git push -u origin master
