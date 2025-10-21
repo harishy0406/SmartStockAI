@@ -1,0 +1,53 @@
+# =========================
+# Python / SmartStock AI
+# =========================
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# VS Code settings
+.vscode/
+.history/
+
+# Data and model files
+data/*.csv
+models/*.pkl
+models/*.joblib
+models/*.sav
+
+# Environment / config files
+*.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Flask / cache files
+instance/
+*.sqlite3
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Prophet / cmdstan
+.cmdstan/
+.cmdstanpy/
+git rm -r --cached .
