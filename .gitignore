@@ -24,12 +24,6 @@ __pycache__/
 .vscode/
 .history/
 
-# Data and model files
-data/*.csv
-models/*.pkl
-models/*.joblib
-models/*.sav
-
 # Environment / config files
 *.env
 .env.*

@@ -1,0 +1,184 @@
+Date,Warehouse_ID,Product_ID,Product_Name,Brand,Anomaly_Type,Stock_Level,Sales,Severity,Resolved
+2025-01-02,W003,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,137,59,High,No
+2025-01-05,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,40,58,High,No
+2025-01-09,W001,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,145,55,High,No
+2025-01-15,W002,P005,Britannia Marie Biscuits,Britannia,High sales spike,93,57,High,No
+2025-01-17,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,106,56,High,No
+2025-01-24,W002,P005,Britannia Marie Biscuits,Britannia,High sales spike,211,68,High,No
+2025-01-25,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,164,61,High,No
+2025-01-26,W003,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,166,77,High,No
+2025-01-28,W001,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,26,64,High,No
+2025-01-30,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,18,71,High,No
+2025-02-01,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,232,61,High,No
+2025-02-01,W003,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,153,79,High,No
+2025-02-03,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,52,66,High,No
+2025-02-04,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,82,71,High,No
+2025-02-05,W003,P002,Colgate Toothpaste 100g,Colgate,High sales spike,54,52,High,No
+2025-02-05,W003,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,122,56,High,No
+2025-02-06,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,102,55,High,No
+2025-02-08,W001,P001,Tata Salt 1kg,Tata,High sales spike,123,58,High,No
+2025-02-10,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,150,78,High,No
+2025-02-10,W003,P001,Tata Salt 1kg,Tata,High sales spike,135,62,High,No
+2025-02-11,W003,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,198,58,High,No
+2025-02-12,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,201,58,High,No
+2025-02-13,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,17,63,High,No
+2025-02-14,W003,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,157,77,High,No
+2025-02-15,W001,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,44,67,High,No
+2025-02-16,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,172,59,High,No
+2025-02-17,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,162,63,High,No
+2025-02-17,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,15,65,High,No
+2025-02-18,W001,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,95,60,High,No
+2025-02-18,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,143,51,High,No
+2025-02-19,W001,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,198,64,High,No
+2025-02-20,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,203,51,High,No
+2025-02-21,W001,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,130,81,High,No
+2025-02-21,W001,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,193,61,High,No
+2025-02-23,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,17,64,High,No
+2025-02-23,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,216,74,High,No
+2025-02-27,W001,P001,Tata Salt 1kg,Tata,High sales spike,151,56,High,No
+2025-03-01,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,110,52,High,No
+2025-03-01,W002,P005,Britannia Marie Biscuits,Britannia,High sales spike,94,58,High,No
+2025-03-01,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,127,77,High,No
+2025-03-02,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,144,72,High,No
+2025-03-02,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,57,59,High,No
+2025-03-02,W003,P001,Tata Salt 1kg,Tata,High sales spike,38,73,High,No
+2025-03-04,W001,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,228,58,High,No
+2025-03-04,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,75,96,High,No
+2025-03-04,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,19,72,High,No
+2025-03-04,W003,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,149,85,High,No
+2025-03-06,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,66,62,High,No
+2025-03-07,W001,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,167,68,High,No
+2025-03-07,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,113,79,High,No
+2025-03-09,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,165,53,High,No
+2025-03-09,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,179,77,High,No
+2025-03-09,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,75,65,High,No
+2025-03-10,W003,P002,Colgate Toothpaste 100g,Colgate,High sales spike,213,58,High,No
+2025-03-11,W002,P005,Britannia Marie Biscuits,Britannia,High sales spike,131,85,High,No
+2025-03-12,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,147,50,High,No
+2025-03-14,W002,P001,Tata Salt 1kg,Tata,High sales spike,38,60,High,No
+2025-03-15,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,118,63,High,No
+2025-03-15,W002,P001,Tata Salt 1kg,Tata,High sales spike,162,70,High,No
+2025-03-15,W002,P002,Colgate Toothpaste 100g,Colgate,High sales spike,95,62,High,No
+2025-03-15,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,88,72,High,No
+2025-03-15,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,94,53,High,No
+2025-03-17,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,24,83,High,No
+2025-03-17,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,56,64,High,No
+2025-03-19,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,201,67,High,No
+2025-03-20,W002,P002,Colgate Toothpaste 100g,Colgate,High sales spike,72,46,High,No
+2025-03-21,W001,P001,Tata Salt 1kg,Tata,High sales spike,47,55,High,No
+2025-03-21,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,173,54,High,No
+2025-03-22,W002,P002,Colgate Toothpaste 100g,Colgate,High sales spike,238,50,High,No
+2025-03-22,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,92,59,High,No
+2025-03-23,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,85,65,High,No
+2025-03-25,W003,P002,Colgate Toothpaste 100g,Colgate,High sales spike,19,74,High,No
+2025-03-26,W003,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,190,61,High,No
+2025-03-28,W001,P001,Tata Salt 1kg,Tata,High sales spike,114,77,High,No
+2025-03-29,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,186,57,High,No
+2025-03-29,W003,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,166,55,High,No
+2025-03-30,W002,P001,Tata Salt 1kg,Tata,High sales spike,184,80,High,No
+2025-04-01,W001,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,205,76,High,No
+2025-04-01,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,56,52,High,No
+2025-04-01,W003,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,191,52,High,No
+2025-04-03,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,102,52,High,No
+2025-04-03,W003,P002,Colgate Toothpaste 100g,Colgate,High sales spike,165,75,High,No
+2025-04-04,W002,P002,Colgate Toothpaste 100g,Colgate,High sales spike,47,62,High,No
+2025-04-04,W003,P001,Tata Salt 1kg,Tata,High sales spike,53,66,High,No
+2025-04-06,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,162,65,High,No
+2025-04-06,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,110,61,High,No
+2025-04-06,W003,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,60,56,High,No
+2025-04-07,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,71,65,High,No
+2025-04-07,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,78,79,High,No
+2025-04-09,W003,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,157,62,High,No
+2025-04-09,W003,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,132,65,High,No
+2025-04-13,W001,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,179,56,High,No
+2025-04-13,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,203,54,High,No
+2025-04-13,W003,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,49,65,High,No
+2025-04-13,W003,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,105,55,High,No
+2025-04-14,W002,P002,Colgate Toothpaste 100g,Colgate,High sales spike,197,48,High,No
+2025-04-15,W002,P002,Colgate Toothpaste 100g,Colgate,High sales spike,41,50,High,No
+2025-04-15,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,94,63,High,No
+2025-04-16,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,137,63,High,No
+2025-04-16,W001,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,155,51,High,No
+2025-04-17,W001,P001,Tata Salt 1kg,Tata,High sales spike,177,57,High,No
+2025-04-17,W001,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,58,52,High,No
+2025-04-18,W001,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,108,59,High,No
+2025-04-18,W003,P001,Tata Salt 1kg,Tata,High sales spike,52,62,High,No
+2025-04-19,W001,P001,Tata Salt 1kg,Tata,High sales spike,142,58,High,No
+2025-04-21,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,212,62,High,No
+2025-04-23,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,97,90,High,No
+2025-04-23,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,129,76,High,No
+2025-04-23,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,39,52,High,No
+2025-04-25,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,63,59,High,No
+2025-04-26,W003,P001,Tata Salt 1kg,Tata,High sales spike,115,57,High,No
+2025-04-27,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,191,62,High,No
+2025-04-27,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,42,62,High,No
+2025-04-27,W003,P002,Colgate Toothpaste 100g,Colgate,High sales spike,236,59,High,No
+2025-05-01,W001,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,112,65,High,No
+2025-05-01,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,89,57,High,No
+2025-05-01,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,118,65,High,No
+2025-05-02,W001,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,204,64,High,No
+2025-05-03,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,161,66,High,No
+2025-05-03,W003,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,117,81,High,No
+2025-05-04,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,234,50,High,No
+2025-05-05,W001,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,57,67,High,No
+2025-05-05,W001,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,91,83,High,No
+2025-05-05,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,185,57,High,No
+2025-05-05,W003,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,82,57,High,No
+2025-05-06,W002,P001,Tata Salt 1kg,Tata,High sales spike,155,86,High,No
+2025-05-06,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,152,51,High,No
+2025-05-07,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,27,54,High,No
+2025-05-08,W003,P008,Maggi Noodles 2-min 70g,Nestle India,Sudden drop in stock,33,48,High,No
+2025-05-10,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,199,64,High,No
+2025-05-11,W001,P001,Tata Salt 1kg,Tata,High sales spike,115,66,High,No
+2025-05-12,W003,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,80,57,High,No
+2025-05-13,W002,P005,Britannia Marie Biscuits,Britannia,High sales spike,182,66,High,No
+2025-05-14,W001,P001,Tata Salt 1kg,Tata,High sales spike,91,54,High,No
+2025-05-16,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,104,62,High,No
+2025-05-16,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,71,63,High,No
+2025-05-16,W002,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,109,61,High,No
+2025-05-19,W001,P001,Tata Salt 1kg,Tata,High sales spike,156,52,High,No
+2025-05-19,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,79,58,High,No
+2025-05-20,W002,P002,Colgate Toothpaste 100g,Colgate,High sales spike,57,46,High,No
+2025-05-20,W002,P005,Britannia Marie Biscuits,Britannia,High sales spike,94,58,High,No
+2025-05-21,W001,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,56,50,High,No
+2025-05-21,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,234,53,High,No
+2025-05-21,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,192,89,High,No
+2025-05-22,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,216,81,High,No
+2025-05-22,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,60,54,High,No
+2025-05-23,W001,P001,Tata Salt 1kg,Tata,High sales spike,67,53,High,No
+2025-05-23,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,177,67,High,No
+2025-05-23,W002,P001,Tata Salt 1kg,Tata,High sales spike,39,82,High,No
+2025-05-23,W003,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,141,91,High,No
+2025-05-24,W001,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,125,99,High,No
+2025-05-24,W003,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,139,51,High,No
+2025-05-24,W003,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,31,52,High,No
+2025-05-25,W001,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,97,49,High,No
+2025-05-25,W002,P001,Tata Salt 1kg,Tata,High sales spike,130,74,High,No
+2025-05-25,W002,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,192,62,High,No
+2025-05-26,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,71,50,High,No
+2025-05-26,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,97,64,High,No
+2025-05-27,W003,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,234,52,High,No
+2025-05-27,W003,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,82,52,High,No
+2025-05-29,W001,P002,Colgate Toothpaste 100g,Colgate,High sales spike,138,58,High,No
+2025-05-29,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,154,65,High,No
+2025-05-30,W001,P005,Britannia Marie Biscuits,Britannia,High sales spike,217,53,High,No
+2025-05-30,W003,P001,Tata Salt 1kg,Tata,High sales spike,129,55,High,No
+2025-05-30,W003,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,115,66,High,No
+2025-05-31,W001,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,171,52,High,No
+2025-05-31,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,177,68,High,No
+2025-05-31,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,56,50,High,No
+2025-06-02,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,High sales spike,52,53,High,No
+2025-06-03,W002,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,144,53,High,No
+2025-06-04,W003,P005,Britannia Marie Biscuits,Britannia,High sales spike,80,50,High,No
+2025-06-09,W003,P001,Tata Salt 1kg,Tata,High sales spike,19,75,High,No
+2025-06-11,W003,P006,Thums Up Bottle 500ml,Coca-Cola India,High sales spike,181,54,High,No
+2025-06-12,W001,P001,Tata Salt 1kg,Tata,High sales spike,147,52,High,No
+2025-06-12,W002,P001,Tata Salt 1kg,Tata,High sales spike,173,74,High,No
+2025-06-14,W002,P001,Tata Salt 1kg,Tata,High sales spike,206,58,High,No
+2025-06-15,W001,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,52,71,High,No
+2025-06-21,W001,P004,Lux Soap Bar,Hindustan Unilever,High sales spike,61,64,High,No
+2025-06-21,W002,P005,Britannia Marie Biscuits,Britannia,High sales spike,122,59,High,No
+2025-06-21,W002,P007,Dabur Amla Hair Oil 200ml,Dabur,High sales spike,233,57,High,No
+2025-06-24,W002,P003,Fortune Sunflower Oil 1L,Adani Wilmar,Sudden drop in stock,37,43,High,No
+2025-06-25,W002,P001,Tata Salt 1kg,Tata,High sales spike,142,61,High,No
+2025-06-30,W001,P008,Maggi Noodles 2-min 70g,Nestle India,High sales spike,76,77,High,No

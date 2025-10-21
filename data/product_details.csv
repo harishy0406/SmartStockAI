@@ -1,0 +1,9 @@
+Product_ID,Product_Name,Category,Brand,Cost_Price,Selling_Price,Reorder_Level,Shelf_Life_Days
+P001,Tata Salt 1kg,Grocery,Tata,20,25,30,730
+P002,Colgate Toothpaste 100g,Personal Care,Colgate,40,60,25,720
+P003,Fortune Sunflower Oil 1L,Grocery,Adani Wilmar,120,150,40,365
+P004,Lux Soap Bar,Personal Care,Hindustan Unilever,25,40,20,730
+P005,Britannia Marie Biscuits,Snacks,Britannia,15,25,30,180
+P006,Thums Up Bottle 500ml,Beverage,Coca-Cola India,20,35,40,180
+P007,Dabur Amla Hair Oil 200ml,Personal Care,Dabur,70,110,30,540
+P008,Maggi Noodles 2-min 70g,Snacks,Nestle India,25,40,35,150
