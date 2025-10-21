@@ -1,6 +1,6 @@
-import pandas as pd
+import pandas as pd # type: ignore
 import random
-import numpy as np
+import numpy as np # type: ignore
 from datetime import datetime, timedelta
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
