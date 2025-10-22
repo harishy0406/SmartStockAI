@@ -1,4 +1,3 @@
-# app_dynamic.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -174,3 +173,75 @@ st.download_button("Download Forecast CSV", forecast_data.to_csv(index=False).en
                    file_name="forecast_filtered.csv", mime='text/csv')
 st.download_button("Download Anomalies CSV", anomaly_data.to_csv(index=False).encode('utf-8'),
                    file_name="anomalies_filtered.csv", mime='text/csv')
+
+
+
+# --- Shelf Image Upload & YOLO Detection ---
+st.subheader("Shelf Monitoring Live")
+st.sidebar.subheader("Shelf Monitoring Live")
+if st.sidebar.button("Live"):
+    st.write("Live monitoring started...")
+
+st.subheader("Shelf Monitoring Image")
+st.sidebar.subheader("Shelf Monitoring Image")
+uploaded_file = st.sidebar.file_uploader("Upload shelf image", type=["jpg","png","jpeg"])
+
+ROWS, COLS = 3, 3  # 3x3 grid
+
+if uploaded_file:
+    from PIL import Image
+    import cv2
+    from ultralytics import YOLO
+    import numpy as np
+
+    # Load YOLO model
+    model = YOLO('yolov8n.pt')  # lightweight YOLOv8
+
+    # Open image
+    image = Image.open(uploaded_file)
+    frame = np.array(image)
+    frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+
+    # Run YOLO detection
+    results = model(frame)
+
+    # Create empty grid
+    frame_height, frame_width, _ = frame.shape
+    rack_h = frame_height // ROWS
+    rack_w = frame_width // COLS
+    grid_labels = np.full((ROWS, COLS), "", dtype=object)
+
+    for r in results:
+        for box in r.boxes:
+            x1, y1, x2, y2 = map(int, box.xyxy[0])
+            cls = int(box.cls[0])
+            label = model.names[cls]
+            
+            # Determine which grid cell the object belongs to
+            cx, cy = (x1+x2)//2, (y1+y2)//2
+            col_idx = min(cx // rack_w, COLS-1)
+            row_idx = min(cy // rack_h, ROWS-1)
+            
+            # Store label
+            grid_labels[row_idx, col_idx] = label
+
+            # Draw bounding box and label
+            cv2.rectangle(frame, (x1, y1), (x2, y2), (0,255,0), 2)
+            cv2.putText(frame, label, (x1, y1-10),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 2)
+
+    # Draw grid lines
+    for r in range(1, ROWS):
+        cv2.line(frame, (0, r*rack_h), (frame_width, r*rack_h), (255,255,0), 2)
+    for c in range(1, COLS):
+        cv2.line(frame, (c*rack_w, 0), (c*rack_w, frame_height), (255,255,0), 2)
+
+    # Convert frame back to RGB for Streamlit
+    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    st.image(frame, caption="Shelf Detection", use_column_width=True)
+
+    # Show detected items per grid
+    st.subheader("Detected Items Grid (3x3)")
+    for r in range(ROWS):
+        row_items = [grid_labels[r,c] if grid_labels[r,c] != "" else "Empty" for c in range(COLS)]
+        st.write(" | ".join(row_items))
