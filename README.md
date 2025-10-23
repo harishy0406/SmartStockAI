@@ -1,3 +1,5 @@
+<img width="1508" height="669" alt="image" src="https://github.com/user-attachments/assets/3700bd20-5cb9-475c-9997-56bf83372572" />
+
 # SmartStock AI: Predictive Inventory Management System
 
 [![Python](https://img.shields.io/badge/python-3.10-blue?logo=python)](https://www.python.org/)
