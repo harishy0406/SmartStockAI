@@ -41,7 +41,7 @@ start_date, end_date = st.sidebar.date_input(
 st.title("SmartStock AI Dynamic Dashboard")
 st.write(f"Category: {selected_category} | Selected Products: {multi_products}")
 
-# --- Helper function to add realistic fluctuations ---
+# --- Helper function to add realistic fluctuations added here---
 def add_fluctuations(df, col, scale=0.1):
     fluctuation = df[col] * (scale * np.random.randn(len(df)))
     return (df[col] + fluctuation).clip(lower=0)
